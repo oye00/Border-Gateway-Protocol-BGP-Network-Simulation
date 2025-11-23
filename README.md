@@ -102,7 +102,7 @@ This would list all BGP-advertised and learned prefixes. Output for router 1 is 
 <img width="547" height="184" alt="show ip bgp(router_1)" src="https://github.com/user-attachments/assets/9d682fd2-8ce4-4239-af2f-180c4f9b48fd" />
 
 ### Test Network Connectivity
-Ping from hosts in AS20 to hosts in AS50 to confirm end-to-end reachability across autonomous systems. Results upon pinging from router 1 in AS20 to router 2 in AS50
+Ping from hosts in AS20 to hosts in AS50 to confirm end-to-end reachability across autonomous systems. Results upon pinging
 <img width="551" height="87" alt="ping router 2 from router 1" src="https://github.com/user-attachments/assets/bf329038-2385-46e1-96e8-f79786676ab7" />
 
 ✅ Successful ping confirms that BGP has correctly exchanged routes between AS20 and AS50.
